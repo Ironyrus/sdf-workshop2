@@ -90,6 +90,7 @@ public class BankAccount {
             System.out.println(txnStrbld.toString());
             //Saving the event log
             transaction.add(txnStrbld.toString());
+            System.out.println("New account balance: " + this.balance);
 
         } catch (NumberFormatException e) {
             System.err.print(e);
@@ -117,6 +118,7 @@ public class BankAccount {
             System.out.println(txnStrbld.toString());
             //Saving the event log
             transaction.add(txnStrbld.toString());
+            System.out.println("New account balance: " + this.balance);
 
         } catch (NumberFormatException e) {
             System.err.print(e);
